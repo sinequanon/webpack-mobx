@@ -2,9 +2,5 @@
 
 .navigation {
   display: flex;
-  width: 100px;
-}
-
-.navlink {
-  flex: 1;
+  justify-content: space-around;
 }

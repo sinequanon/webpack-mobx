@@ -38,7 +38,7 @@ const fieldOptions = {
 
 export default observer(() => (
   <div className='home'>
-    <h1>MobXedit</h1>
+    <h1>Reddit with MobX</h1>
     <AsyncSelectField
       name='selectSubreddit'
       className='selectSubreddit'

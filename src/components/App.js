@@ -5,9 +5,9 @@ import NavLink from './NavLink'
 export default props =>
   <div className='app'>
     <div className='navigation'>
-      <NavLink to='/'>Home</NavLink>
-      <NavLink to='/page2'>Page 2</NavLink>
-      <NavLink to='/todos'>Todos</NavLink>
+      <NavLink to='/'>Reddit with MobX</NavLink>
+      <NavLink to='/setState'>Reddit with setState</NavLink>
+      <NavLink to='/todos'>Mobx Todos</NavLink>
     </div>
     { props.children }
   </div>
