@@ -1,0 +1,6 @@
+$backgroundcolor: beige;
+
+h1 {
+  background-color: $backgroundcolor;
+  background-image: url('../assets/filestage.png');
+}
